@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
 
   gem.add_runtime_dependency 'mongoid',     '4.0.0.rc1'
-  gem.add_runtime_dependency 'activeadmin', github: 'gregbell/active_admin'
+  gem.add_runtime_dependency 'activeadmin', git: 'https://github.com/gregbell/active_admin.git'
 #   gem.add_runtime_dependency 'meta_search', '>= 1.1.0.pre'
   gem.add_runtime_dependency 'sass-rails',  ['~> 4.0', '>= 4.0.0']
 
